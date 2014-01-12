@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="C:\Users\Darshan\Downloads\Recommender Systems\cbf-assignment\target/cbf-assignment.zip">
+    <mappedresources>
+      <fileset dir="C:\Users\Darshan\Downloads\Recommender Systems\cbf-assignment">
+        <include name="pom.xml"/>
+        <include name="src/**/*.java"/>
+        <include name="src/main/resources/*.xml"/>
+        <include name="data/*.csv"/>
+      </fileset>
+      <globmapper to="cbf-assignment/*" from="*"/>
+    </mappedresources>
+  </zip>
+</target>
+</project>

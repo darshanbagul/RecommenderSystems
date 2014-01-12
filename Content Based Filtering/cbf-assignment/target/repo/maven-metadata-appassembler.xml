@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grouplens.mooc</groupId>
+  <artifactId>cbf-filter</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20131006171506</lastUpdated>
+  </versioning>
+</metadata>
